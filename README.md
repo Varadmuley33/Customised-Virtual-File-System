@@ -1,6 +1,6 @@
 # 📁 CVFS (Custom Virtual File System)
 
-## 🚀 Overview
+## ▸ Overview
 
 CVFS is a custom-built Virtual File System implemented in C/C++.
 It simulates core file handling operations of an operating system using in-memory data structures.
@@ -9,7 +9,7 @@ This project demonstrates how file systems internally manage files using concept
 
 ---
 
-## 🎯 Purpose of the Project
+## ▸ Purpose of the Project
 
 The main goal of this project is to understand and implement:
 
@@ -21,7 +21,7 @@ The main goal of this project is to understand and implement:
 
 ---
 
-## 🧠 Key Concepts Used
+## ▸ Key Concepts Used
 
 * Inodes (Index Nodes)
 * File Descriptors (FD)
@@ -33,7 +33,7 @@ The main goal of this project is to understand and implement:
 
 ---
 
-## ⚙️ Features
+## ▸ Features
 
 * Create files (`creat`)
 * Write data into files (`write`)
@@ -46,7 +46,7 @@ The main goal of this project is to understand and implement:
 
 ---
 
-## 🏗️ Project Structure
+## ▸ Project Structure
 
 ```
 📁 CVFS
@@ -58,7 +58,7 @@ The main goal of this project is to understand and implement:
 
 ---
 
-## 🖥️ How to Run
+## ▸ How to Run
 
 ### Step 1: Open terminal in project folder
 
@@ -78,7 +78,7 @@ g++ main.cpp cvfs.cpp -o cvfs
 
 ---
 
-## 💡 How to Use (Commands)
+## ▸ How to Use (Commands)
 
 | Command                     | Description          |
 | --------------------------- | -------------------- |
@@ -94,7 +94,7 @@ g++ main.cpp cvfs.cpp -o cvfs
 
 ---
 
-## 🧪 Example Usage
+## ▸ Example Usage
 
 ```
 creat demo.txt 3
@@ -116,7 +116,7 @@ unlink demo.txt
 
 ---
 
-## 🌍 Real-World Relevance
+## ▸ Real-World Relevance
 
 This project reflects how real operating systems manage files internally.
 It is useful for understanding concepts used in:
