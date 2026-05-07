@@ -4,7 +4,7 @@ int main()
 {
     char str[80] = {'\0'};
     char Command[5][20] = {{'\0'}};
-    char InputBuffer[MAXFILESIZE] = {'\0'};
+    char InputBuffer[MAXFILESIZE] = {'\0'};    
 
     char *EmptyBuffer = NULL;
 
