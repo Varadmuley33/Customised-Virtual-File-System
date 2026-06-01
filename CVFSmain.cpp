@@ -8,7 +8,7 @@ int main()
 
     char *EmptyBuffer = NULL;
 
-    int iCount = 0;
+    int iCount = 0; 
     int iRet = 0;
 
     StartAuxillaryDataInitilisation();
